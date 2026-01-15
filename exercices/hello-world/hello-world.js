@@ -4,5 +4,5 @@
 //
 
 export function hello() {
-  return 'Hello, Word';
+  return 'Hello, World!';
 }
