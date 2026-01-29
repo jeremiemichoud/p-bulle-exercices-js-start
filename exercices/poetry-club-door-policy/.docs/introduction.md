@@ -20,14 +20,14 @@ A string can be treated as a list of characters where the first character has in
 You can access an individual character of the string using square brackets and the index of the letter you want to retrieve.
 
 ```javascript
-'cat'[1];
+"cat"[1];
 // => 'a'
 ```
 
 You can determine the number of characters in a string by accessing the `length` property.
 
 ```javascript
-'cat'.length;
+"cat".length;
 // => 3
 ```
 
@@ -36,7 +36,7 @@ You can determine the number of characters in a string by accessing the `length`
 The simplest way to concatenate strings is to use the addition operator `+`.
 
 ```javascript
-'I like' + ' ' + 'cats.';
+"I like" + " " + "cats.";
 // => "I like cats."
 ```
 
