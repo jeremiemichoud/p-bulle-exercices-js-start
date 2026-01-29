@@ -35,7 +35,7 @@ export function setItem(cards, position, replacementCard) {
  * @returns {number[]} the cards with the newCard applied
  */
 export function insertItemAtTop(cards, newCard) {
-  cards[cards.length] = newCard;
+  cards.push(newCard);
   return cards;
 }
 
@@ -98,6 +98,7 @@ export function removeItemAtBottom(cards) {
  * @returns {boolean} true if there are exactly stackSize number of cards, false otherwise
  */
 export function checkSizeOfStack(cards, stackSize) {
-  if (cards.length == stackSize) return true;
+  return cards.length === stackSize;
+
   return false;
 }
